@@ -1,7 +1,5 @@
 /*General styles */
 * {
-  /* margin: 0;
-  padding: 0; */
   text-decoration: none;
   list-style: none;
 }
@@ -25,7 +23,6 @@ h1 {
 }
 
 h2 {
-  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -102,12 +99,24 @@ img {
   background: #404bbf;
 }
 
+.features-title {
+  letter-spacing: 0.02em;
+}
+
 .team-section {
   background: #f4f4fd;
 }
 
+.team-title {
+  letter-spacing: 0.02em;
+}
+
 .team-list-item {
   background: #fff;
+}
+
+.portfolio-title {
+  letter-spacing: 0.02em;
 }
 
 /*Footer*/
