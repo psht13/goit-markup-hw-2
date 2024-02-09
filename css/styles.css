@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
@@ -17,15 +18,20 @@ body {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 h3 {
@@ -40,13 +46,30 @@ img {
 }
 
 /*Header*/
-nav .nav-link {
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-header {
+  color: #2e2f42;
+}
+
+.nav-link {
   font-weight: 500;
   color: #2e2f42;
 }
 
-address .header-contacts {
+.contacts {
   font-style: normal;
+}
+
+.header-contacts {
   color: #434455;
 }
 
@@ -57,39 +80,23 @@ address .header-contacts {
   color: #404bbf;
 }
 
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.logo-pt1 {
-  color: #4d5ae5;
-}
-
-.logo-pt2-header {
-  color: #2e2f42;
-}
-
 /*Main content*/
 .hero-section {
   background: #2e2f42;
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   border-style: none;
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
+  line-height: 1.5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -103,15 +110,14 @@ address .header-contacts {
 
 .team-list-item {
   background: #fff;
-  width: 264px;
 }
 
 /*Footer*/
-footer {
+.footer-content {
   background: #2e2f42;
 }
 
-.logo-pt2-footer {
+.logo-footer {
   color: #f4f4fd;
 }
 
