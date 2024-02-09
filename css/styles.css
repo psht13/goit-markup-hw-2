@@ -1,9 +1,4 @@
 /*General styles */
-* {
-  text-decoration: none;
-  list-style: none;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
@@ -13,6 +8,14 @@ body {
   letter-spacing: 0.02em;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
 h1 {
   font-weight: 700;
   font-size: 56px;
