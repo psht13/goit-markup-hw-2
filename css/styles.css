@@ -1,11 +1,9 @@
-/*General styles */
+/* ==================== General styles ==================== */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   font-size: 16px;
   color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 a {
@@ -16,34 +14,8 @@ ul,
 ol {
   list-style-type: none;
 }
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #fff;
-}
 
-h2 {
-  letter-spacing: 0.02em;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-h3 {
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-
-/*Header*/
+/* ==================== Page header styles ==================== */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -61,14 +33,15 @@ h3 {
 .nav-link {
   font-weight: 500;
   color: #2e2f42;
-}
-
-.contacts {
-  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .nav-link:hover,
@@ -78,9 +51,19 @@ h3 {
   color: #404bbf;
 }
 
-/*Main content*/
+/* ==================== Main content styles ==================== */
+
+/* ==================== Hero section styles ====================*/
 .hero-section {
   background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -91,7 +74,7 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -100,15 +83,87 @@ h3 {
   background: #404bbf;
 }
 
+/* ==================== Features section styles ====================*/
+.features-section-title {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.features-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.features-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ==================== Team section styles ====================*/
 .team-section {
   background: #f4f4fd;
 }
 
-.team-list-item {
-  background: #fff;
+.team-section-title {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-/*Footer*/
+.team-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.team-list-item {
+  background: #ffffff;
+}
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ==================== Portfolio section styles ====================*/
+.portfolio-section-title {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.project-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.project-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ==================== Page footer styles ====================*/
 .footer-content {
   background: #2e2f42;
 }
