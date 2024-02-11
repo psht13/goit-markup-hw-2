@@ -37,11 +37,14 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .header-contacts {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .nav-link:hover,
@@ -174,4 +177,6 @@ ol {
 
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
